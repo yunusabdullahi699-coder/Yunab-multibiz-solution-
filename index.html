@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yunab Multibiz Solution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a class="logo" href="#home">Yunab <span>Multibiz</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Digital Solutions for Growing Businesses</p>
+          <h1>Build, launch, and scale with Yunab Multibiz Solution.</h1>
+          <p>
+            We craft modern websites, mobile-ready experiences, and automation systems
+            that help companies improve sales, operations, and customer satisfaction.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Start a Project</a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Why clients choose us</h2>
+          <ul>
+            <li>⚡ Fast project delivery with agile collaboration</li>
+            <li>🎯 Tailored business strategy and product design</li>
+            <li>🔐 Secure, scalable, and reliable technology stacks</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <h2>Core Services</h2>
+          <p class="section-intro">
+            End-to-end support from idea to execution for startups, SMEs, and enterprise teams.
+          </p>
+          <div class="grid cards">
+            <article class="card">
+              <h3>Web Development</h3>
+              <p>High-performance websites and dashboards built for conversion and growth.</p>
+            </article>
+            <article class="card">
+              <h3>Business Automation</h3>
+              <p>Automate repetitive processes and improve team productivity with smart workflows.</p>
+            </article>
+            <article class="card">
+              <h3>Brand & Product Design</h3>
+              <p>User-focused interfaces and compelling visuals that reflect your business identity.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split">
+          <div>
+            <h2>About Yunab Multibiz Solution</h2>
+            <p>
+              Yunab Multibiz Solution is focused on helping businesses use technology as a
+              competitive advantage. We combine strategy, development, and support to deliver
+              measurable outcomes for clients across industries.
+            </p>
+            <p>
+              Our mission is simple: make digital transformation practical, affordable, and
+              impactful for every business.
+            </p>
+          </div>
+          <aside class="stats">
+            <div><strong>50+</strong><span>Projects Delivered</span></div>
+            <div><strong>20+</strong><span>Business Partners</span></div>
+            <div><strong>98%</strong><span>Client Satisfaction</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section section-alt">
+        <div class="container">
+          <h2>Recent Work Highlights</h2>
+          <div class="grid showcase">
+            <article>
+              <h3>E-commerce Revamp</h3>
+              <p>Redesigned an online store and improved checkout completion by 36%.</p>
+            </article>
+            <article>
+              <h3>Operations Dashboard</h3>
+              <p>Built a custom dashboard for real-time inventory and sales tracking.</p>
+            </article>
+            <article>
+              <h3>Client Portal</h3>
+              <p>Developed a secure portal for faster customer onboarding and support.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container split">
+          <div>
+            <h2>Let’s build your next digital product.</h2>
+            <p>
+              Tell us about your goals and we’ll send a project roadmap tailored to your needs.
+            </p>
+            <p><strong>Email:</strong> hello@yunabmultibiz.com</p>
+            <p><strong>Phone:</strong> +234 000 000 0000</p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label>
+              Email Address
+              <input type="email" name="email" placeholder="you@company.com" required />
+            </label>
+            <label>
+              Project Details
+              <textarea name="message" rows="4" placeholder="What do you want to build?"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Yunab Multibiz Solution. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
